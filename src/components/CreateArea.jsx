@@ -64,7 +64,7 @@ function CreateArea(props) {
 
         <Zoom in={textAreaIsClicked}>
           <Fab onClick={submitNote}>
-            <AddIcon />
+            <AddIcon fontSize="large"/>
           </Fab>
         </Zoom>
       </form>

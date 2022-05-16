@@ -4,7 +4,7 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer>
-      <p>Copyright Emibass ⓒ {year}</p>
+      <p>Copyright emibass ⓒ {year}</p>
     </footer>
   );
 }

@@ -8,11 +8,13 @@ function Note(props) {
 
   return (
     <div className="note">
+        <div className="note-header">
       <h1>{props.title}</h1>
+</div>
 
       <p>{props.content}</p>
       <button onClick={handleClick}>
-        <DeleteIcon />
+        <DeleteIcon fontSize="small" />
       </button>
     </div>
   );
